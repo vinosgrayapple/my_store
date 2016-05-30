@@ -7,7 +7,7 @@ class Item < ActiveRecord::Base
 	belongs_to :category
 
 	after_initialize {} # Item.new
-	after_save       {}# Item.scve; Item.create
+	after_save       {}# Item.***; Item.create
 	after_create     {}
 	after_update     {}
 	after_destroy    {}
